@@ -4,7 +4,6 @@
 
 - [Introduction](#introduction)
 
-
-# Introduction
+## Introduction
 
 [Instruction on running a JS8Call Net](./JS8Call-Net.md)
