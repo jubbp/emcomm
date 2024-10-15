@@ -20,6 +20,7 @@
 - [VK6DEV Comm Plan](#vk6dev-comm-plan)
 - [Training](#training)
 - [Tools](#tools)
+- [Threat Assessment](#threat-assessment)
 - [Resources](#resources)
   - [Software Projects](#software-projects)
 - [Reference Resources](#reference-resources)
@@ -133,7 +134,7 @@ If nobody knows how to use it, how will they know how to do it when it’s reall
 - [APRS](./APRS.MD)
 - APRS Messaging
 - [Winlink email](./Winlink.md)
-- JS8Call
+- [JS8Call](./js8call.md)
 - VaraAC
 - AREDN
 - email
@@ -141,6 +142,30 @@ If nobody knows how to use it, how will they know how to do it when it’s reall
 - [Paging](./pagers.md)
 
 **TODO:**  "How to" page for basic operation of each tool.
+
+## Threat Assessment
+
+What are the threats to our way of life and how might we cope and overcome?
+
+Lets start by listing out the threats
+
+- External Threats
+  - World War - Thermonuclear Warfare
+  - Regional Wars
+- Internal Threats
+  - Break down of Law and Order
+    - Civil Unrest
+  - Break down of Utilities
+    - Water
+    - Power
+  - Break down of Supply chains
+  - Authoritarian Government
+    - State Govt
+    - Federal Govt
+  - Natural Disasters
+    - Bad Weather
+    - Earthquake
+    - Flooding
 
 ## Resources
 
