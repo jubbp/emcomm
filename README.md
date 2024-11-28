@@ -1,10 +1,18 @@
-# 🦺 Emcomm Notes by Phil VK6DEV <!-- omit from toc -->
+# Edition [ LEGACY TEMPLATE NO LONGER MAINTAINED ]
 
+<<<<<<< HEAD
 <img src="./Images/IMG_1691.PNG" class="img-align-right"
 style="float: right; margin: 0 0 0 15px;" width="50" alt="EmComm Logo">
+=======
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
-## Table of Contents <!-- omit from toc -->
+![Edition template screenshot](images/_screenshot.png)
+>>>>>>> 9863b0873c1ad832e67c0110d2c9f3210add3968
 
+Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+
+<<<<<<< HEAD
 - [Introduction](#introduction)
   - [What is EmComm?](#what-is-emcomm)
   - [Why do we need EmComm?](#why-do-we-need-emcomm)
@@ -26,74 +34,72 @@ style="float: right; margin: 0 0 0 15px;" width="50" alt="EmComm Logo">
   - [Emergency Management Agencies (Australia)](#emergency-management-agencies-australia)
 - [Amatuer Radio Emergency Beacon Project](#amatuer-radio-emergency-beacon-project)
 - [Useful Information during EmComm Event](#useful-information-during-emcomm-event)
+=======
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+>>>>>>> 9863b0873c1ad832e67c0110d2c9f3210add3968
 
-## Introduction
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/edition-jekyll-template)
 
-This document is my work to investigate and document an emcomms methodology.
-This EmComm plan is designed for my own use and as such will largely focus on
-Western Australia 🇦🇺, but the concepts will be transferable to most locations.
+## Features
 
+<<<<<<< HEAD
 This is a living document, it will change and grow over time so make sure you
 come back regularly.
+=======
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
+>>>>>>> 9863b0873c1ad832e67c0110d2c9f3210add3968
 
-Collaboration is encouraged. These documents hosted on GitHub and editable by all.
+## Setup
 
-Please feel free to contact me <vk6dev@gmail.com>
+1. Add your site and author details in `_config.yml`.
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-### What is EmComm?
+## Develop
 
-EmComm is short for Emergency Communications. It is a procedure/method
- of maintaining reliable and effective communications during an emergency.
-An EmComm system should help in the collection, collation and distribution
-of information during an emergency situation where mainstream communications
-maybe disrupted.
+Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-EmComm should not be about any one particular technology or mode of
-communication, but should be about the communication itself.
+Install the dependencies with [Bundler](http://bundler.io/):
 
-### Why do we need EmComm?
+~~~bash
+$ bundle install
+~~~
 
-In the event of a disruption to normal life, communication is a vital resource
-for all. This is where EmComm and Amateur Radio Operators can step up to assist
-the community.
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-### Who may need our assistance
+~~~bash
+$ bundle exec jekyll serve
+~~~
 
-There are many who may need our assistance. They are probably not those that
-you might think of first.
-In Western Australia, the emergency services are served by an extensive
-communication network which is multi-redundant and resilient. See the section
-of [Emergecy Services Radio resources](./README#emergency-services-radio).
+## Editing
 
-- Community Organisations
-- Local Government
-- Other Amateurs
-- Our Family
-- Our Friends
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
 
-How will we interact with the wider community? How will we assist those
-organisations that need communications during an emergency.
+### Documentation pages
 
-## Security Considerations
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 
-The security of our communications could be important to us. As the communications
-methods described in this plan will be predominantly based on Amateur Radio,
-it is important to remember that no encryption is allowed in on the Amateur Radio
-Bands.
+### Change log
 
-There are ways you can obfuscate your communications to make them less obvious.
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
 
-- Use "non-standard" frequencies
-- Digital rather than analogue
-- Code words and predefined phrases
-- Use a commercial service where encryption is allowed
+### Search
 
-## Information is King
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
-During an emergency event, access to information is of utmost importance. Without
-timely and accurate information you can not make decisions which may affect you,
-your family and friends.
+### Navigation
 
+<<<<<<< HEAD
 To gather information you can:
 
 - Listen to official radio sources
@@ -247,3 +253,6 @@ Check out the [design and specifications](./AREIB/AREIB.md)
   - Schools
   - Evacuation Centres
   
+=======
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.
+>>>>>>> 9863b0873c1ad832e67c0110d2c9f3210add3968

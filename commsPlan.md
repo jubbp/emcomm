@@ -1,9 +1,10 @@
-# Comms Plan for VK6DEV <!-- omit from toc -->
+# Comms Plan for VK6DEV - [PACE Plan](#pace-plan)
 
 In the event of an emergency the following is my plan for communications.
 
 ## Table of Contents <!-- omit from toc -->
 
+<<<<<<< HEAD
 - [PACE Plan](#pace-plan)
 - [GhostNet Protocol](#ghostnet-protocol)
   - [GhostNet Preparation](#ghostnet-preparation)
@@ -14,6 +15,19 @@ In the event of an emergency the following is my plan for communications.
 - [Digital Communications](#digital-communications)
 - [Training and Practice](#training-and-practice)
   - [Bunbury Radio Club Net](#bunbury-radio-club-net)
+=======
+- [Comms Plan for VK6DEV - PACE Plan](#comms-plan-for-vk6dev---pace-plan)
+  - [PACE Plan](#pace-plan)
+  - [GhostNet Protocol](#ghostnet-protocol)
+    - [GhostNet Preparation](#ghostnet-preparation)
+  - [Capabilities](#capabilities)
+    - [Shack Equipment](#shack-equipment)
+  - [Voice Communications](#voice-communications)
+  - [Information Gathering](#information-gathering)
+  - [Digital Communications](#digital-communications)
+  - [Training and Practice](#training-and-practice)
+    - [Bunbury Radio Club Net](#bunbury-radio-club-net)
+>>>>>>> 9863b0873c1ad832e67c0110d2c9f3210add3968
 
 ## PACE Plan
 
